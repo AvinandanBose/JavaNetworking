@@ -18,7 +18,8 @@ Determines the IP address of a host, given the host's name.
 <li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/javaInetAddressTest%5BgetAllByName%5D.java">GetAllByName</h3></li>
 
 ```Syntax
-Given the name of a host, returns an array of its IP addresses, based on the configured name service on the system.
+Given the name of a host, returns an array of its IP addresses, 
+based on the configured name service on the system.
 ```
 
 </ul>
