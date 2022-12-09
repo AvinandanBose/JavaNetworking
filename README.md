@@ -1,2 +1,2 @@
-# JavaCollectionList
-This is all about List Interface of Java Collection.
+# JavaNetworking
+This is all about Java Networking.
