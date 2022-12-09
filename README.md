@@ -30,5 +30,23 @@ As it returns byte value hence we have to do AND
 Operation with 0xff(Hex)= 255 (1111 1111), to get actual value.
 ```
 
+<li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/javaInetAddressTest%5BgetHostName%5D.java">GetHostName</h3></li>
+
+```Syntax
+Gets the host name for the IP address.
+```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/javaInetAddressTest%5BgetHostAddress%5D.java">GetHostAddress</h3></li>
+
+```Syntax
+Returns the IP address string in textual presentation.
+```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/javaInetAddressTest%5BgetCanonicalHostName%5D.java">CanonicalHostName</h3></li>
+
+```Syntax
+Gets the fully qualified domain name for the IP address.
+```
+
 </ul>
 
