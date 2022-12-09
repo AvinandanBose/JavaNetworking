@@ -22,5 +22,13 @@ Given the name of a host, returns an array of its IP addresses,
 based on the configured name service on the system.
 ```
 
+<li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/javaInetAddressTest%5BgetAddress%5D.java">GetAddress</h3></li>
+
+```Syntax
+Returns the raw IP address of  InetAddress object. 
+As it returns byte value hence we have to do AND
+Operation with 0xff(Hex)= 255 (1111 1111), to get actual value.
+```
+
 </ul>
 
