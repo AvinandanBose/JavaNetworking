@@ -48,5 +48,28 @@ Returns the IP address string in textual presentation.
 Gets the fully qualified domain name for the IP address.
 ```
 
+<li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/javaInetAddressTest%5BgetLocalHost%5D.java">GetLocalHost</h3></li>
+
+```Syntax
+Returns the address of the local host. 
+This is achieved by retrieving the name of the host from the system,
+then resolving that name into an InetAddress.
+```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/javaInetAddressTest%5BgetLoopbackAddress%5D.java">GetLoopbackAddress</h3></li>
+
+```Syntax
+Returns the loopback address.
+
+The InetAddress returned will represent the IPv4 loopback address, 127.0.0.1, 
+or the IPv6 loopback address, ::1. 
+
+Note: The IP address 127.0. 0.1 is called a loopback address.
+Packets sent to this address never reach the network ,
+but are looped through the network interface card only. 
+This can be used for diagnostic purposes to verify,
+that the internal path through the TCP/IP protocols is working.
+```
+
 </ul>
 
