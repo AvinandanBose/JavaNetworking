@@ -77,5 +77,44 @@ that the internal path through the TCP/IP protocols is working.
 Returns a hashcode for this IP address.
 ```
 
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/javaInetAddress%5BisAnyLocalAddress%5D.java">isAnyLocalAddress</h3></li>
+
+```Syntax
+Utility routine to check if the InetAddress is a wildcard address.
+Wild Card Address is a special local IP address.
+i.e. 
+For Net Mask : 255.255.255.255 → Wild Card Mask : 0.0.0.0
+For Net Mask : 255.255.255.254 → Wild Card Mask : 0.0.0.1
+For Net Mask : 255.255.255.252 → Wild Card Mask : 0.0.0.3
+For Net Mask : 255.255.255.248 → Wild Card Mask : 0.0.0.7
+.....
+
+For Net Mask : 0.0.0.0 → Wild Card Mask : 255.255.255.255
+
+Note :
+
+Formula = 
+Starting Value is Always : 255.255.255.255
+(Substract)
+Subnet Mask =  Wild Card Mask
+
+i.e.
+
+255.255.255.255 - Subnet Mask = Wild Card Mask
+
+A wildcard mask is a mask of bits that indicates ,
+which parts of an IP address are available for examination.
+
+A wildcard mask can be thought of as an inverted subnet mask.
+i.e.
+(Subnet Mask)255.255.255.0  → 0.0.0.255(Wild Card Mask)
+
+A wild card mask is a matching rule in which:
+
+0 means that the equivalent bit must match(Care)and 
+1 means that the equivalent bit does not matter(Don't Care).
+```
+
 </ul>
 
