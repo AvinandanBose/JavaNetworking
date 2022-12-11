@@ -71,5 +71,11 @@ This can be used for diagnostic purposes to verify,
 that the internal path through the TCP/IP protocols is working.
 ```
 
+<li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/javaInetAddressTest%5BhashCode%5D.java">HashCode</h3></li>
+
+```Syntax
+Returns a hashcode for this IP address.
+```
+
 </ul>
 
