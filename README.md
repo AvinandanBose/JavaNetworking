@@ -122,7 +122,8 @@ A wild card mask is a matching rule in which:
 
 Utility routine to check if the InetAddress is an link local address.
 
-Linkink Local Address: A link-local address is a unicast( one-to-one transmission ) network address ,
+Linkink Local Address: A link-local address is an automated selected,
+IPv6 unicast( one-to-one transmission ) network address ,
 that is valid only for communications within the subnetwork that the host is connected to.
 A link-local address is required on each physical interface.
 
@@ -136,6 +137,21 @@ A link-local address is automatically assigned.
 A link-local address is the IP address that is to be used for communication ,
 within a logical division of the network or in the broadcast domain ,
 to which the host is connected.
+
+Range of Link Local Ip Address : 169.254.x.x
+where x ranges from : 0 - 255 
+
+i.e. The Range is between : 169.254.0.0 -
+169.254.255.255
+
+Each computer randomly select an IP address in a given Range.
+And then communicate to other Computer searching for the same ,
+IP address through ARP(Address Resolution Protocol (ARP)), 
+if not found then the automated selected IP belongs to the 
+Computer.
+
+Note: A link-local address is an IPv6 unicast address ,
+that can be automatically configured on any interface .
 
 ```
 
