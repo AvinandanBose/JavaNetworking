@@ -116,5 +116,30 @@ A wild card mask is a matching rule in which:
 1 means that the equivalent bit does not matter(Don't Care).
 ```
 
+<li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/javaInetAddress%5BisLinkLocalAddress%5D.java">isLinkLocalAddress</h3></li>
+
+```Syntax
+
+Utility routine to check if the InetAddress is an link local address.
+
+Linkink Local Address: A link-local address is a unicast( one-to-one transmission ) network address ,
+that is valid only for communications within the subnetwork that the host is connected to.
+A link-local address is required on each physical interface.
+
+Link-local addresses are designed to be used for addressing on a single link,
+for purposes such as automatic address configuration, neighbor discovery, 
+or in the absence of routers.
+
+It also may be used to communicate with other nodes on the same link. 
+A link-local address is automatically assigned.
+
+A link-local address is the IP address that is to be used for communication ,
+within a logical division of the network or in the broadcast domain ,
+to which the host is connected.
+
+```
+
+
+
 </ul>
 
