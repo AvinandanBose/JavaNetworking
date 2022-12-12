@@ -169,9 +169,7 @@ Utility routine to check if the InetAddress is a loopback address.
 
 Utility routine to check if the multicast address has global scope.
 
-Destination Address: It can be Unicast, MultiCast or BroadCast.
-  
-
+ 
 Multicast: In a Multicast Transmission,
   All stations recieves the frame, the stations that
   are members of the group keeps and handles the frame.
