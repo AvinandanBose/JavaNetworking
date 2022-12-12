@@ -155,6 +155,13 @@ that can be automatically configured on any interface .
 
 ```
 
+<li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/javaInetAddress%5BisLoopbackAddress%5D.java">isLinkLocalAddress</h3></li>
+
+```Syntax
+
+Utility routine to check if the InetAddress is a loopback address.
+
+```
 
 
 </ul>
