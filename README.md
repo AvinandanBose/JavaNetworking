@@ -169,6 +169,24 @@ Utility routine to check if the InetAddress is a loopback address.
 
 Utility routine to check if the multicast address has global scope.
 
+Destination Address: It can be Unicast, MultiCast or BroadCast.
+  
+
+Multicast: In a Multicast Transmission,
+  All stations recieves the frame, the stations that
+  are members of the group keeps and handles the frame.
+  The protocol that is used  
+  Internet Group Management Protocol . 
+  It uses Class D of IP address , where 
+  1110 - these 4 bits are fixed in Octet
+  and other 28 bits can be used in maximum
+  of 2^28 bits . Therefore 1st Octet will
+  range from : 1110 0000 - 1110 1111
+  that is 224-239. And least significant 
+  bit of the of the first byte in a destination
+  address is always 1 in Multicasting,
+  where as in Unicast it is 0.
+  
 ```
 
 
