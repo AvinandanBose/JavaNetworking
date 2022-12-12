@@ -280,9 +280,14 @@ Returns a hashcode for the given IP address.
 
 </ul>
 
-<h3>
 
-Q) Lets Look at a program which prompts the user for a hostname and then it looks up the IP address for the hostname and displays the result. Once done , it asks the user if he or she wants to look up another host:
 
-</h3>
+<h3> Q 1) Lets Look at a program which prompts the user for a hostname and then it looks up the IP address for the hostname and displays the result. Once done , it asks the user if he or she wants to look up another host: </h3>
+
+<ul>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/Answer1.java">Answer-1</h3></li>
+</ul>
+
+
+
 
