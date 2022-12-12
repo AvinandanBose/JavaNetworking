@@ -269,6 +269,14 @@ Converts this IP address to a String. The string returned is of the form: hostna
 
 ```
 
+<li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/javaInetAddressTest%5BhashCode%5D.java">hashCode</h3></li>
+
+
+```Syntax
+
+Returns a hashcode for the given IP address.
+
+```
 
 </ul>
 
