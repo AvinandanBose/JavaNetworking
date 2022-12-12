@@ -163,6 +163,14 @@ Utility routine to check if the InetAddress is a loopback address.
 
 ```
 
+<li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/javaInetAddress%5BisMCGlobal%5D.java">isMCGlobal</h3></li>
+
+```Syntax
+
+Utility routine to check if the multicast address has global scope.
+
+```
+
 
 </ul>
 
