@@ -297,6 +297,10 @@ Returns a hashcode for the given IP address.
 <h1 align="center"> Socket Class </h1>
 
 <ul>
+
+<h2 align="center"> 1. Constructors of Socket Class </h2>
+
+<ul>
 <li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/Socket%5BCreation%20of%20Socket%5D.java">Creation of Socket</h3></li>
  
  ```Syntax
@@ -350,4 +354,23 @@ Socket s;
 InetAddress localAdress = InetAddress.getLocalHost();
 s = new Socket(hostname, port, localAdress, localPort);
  ```
+ 
+ <li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/Socket%5BConnecting%20Address%20Through%20a%20Port%5D-Constructor5.java">Connecting InetAddress Through a Port-Constructor3</h3></li>
+ 
+  ```Syntax
+import java.net.InetSocketAddress;
+import java.net.Proxy;
+import java.net.Socket;
+import java.net.SocketAddress;
+
+SocketAddress address = new InetSocketAddress(hostname, port);
+Proxy proxy = new Proxy(Proxy.Type.HTTP, address);
+Socket s = new Socket(proxy);
+
+Proxy socksProxy = new Proxy(Proxy.Type.SOCKS, new InetSocketAddress(hostname, port));
+Socket s1 = new Socket(socksProxy);
+
+ ```
+ </ul>
+ <h2 align="center"> 2. Methods of Socket Class </h2>
 </ul>
