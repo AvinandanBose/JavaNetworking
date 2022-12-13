@@ -344,9 +344,10 @@ import java.net.SocketAddress;
  ```Syntax
  
 import java.net.Socket → Socket Package
+import java.net.InetAddress;
 
-Socket s = new Socket();
-SocketAddress addr = new InetSocketAddress(hostname, port);
-s.connect(addr);
+Socket s;
+InetAddress localAdress = InetAddress.getLocalHost();
+s = new Socket(hostname, port, localAdress, localPort);
  ```
 </ul>
