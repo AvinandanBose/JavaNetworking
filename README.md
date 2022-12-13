@@ -315,6 +315,17 @@ Returns a hashcode for the given IP address.
  Socket s = new Socket(InetAddress, int port); 
  ```
  
+  
+ <li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/Socket%5BConnecting%20Address%20Through%20a%20Port%5D-Constructor3.java">Connecting InetAddress Through a Port-Constructor1(a)</h3></li>
+ 
+ ```Syntax
+ 
+ import java.net.Socket → Socket Package
+ 
+ Socket s = new Socket(); 
+ s.connect( new java.net.InetSocketAddress(hostname, port));
+ ```
+ 
   <li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/Socket%5BConnecting%20Address%20Through%20a%20Port%5D-Constructor2.java">Connecting InetAddress Through a Port-Constructor2</h3></li>
  
  ```Syntax
