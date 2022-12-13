@@ -298,4 +298,11 @@ Returns a hashcode for the given IP address.
 
 <ul>
 <li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/Socket%5BCreation%20of%20Socket%5D.java">Creation of Socket</h3></li>
+ 
+ ```Syntax
+ 
+ import java.net.Socket → Socket Package
+ 
+ Socket s = new Socket(); → Creating an instance of Socket
+ ```
 </ul>
