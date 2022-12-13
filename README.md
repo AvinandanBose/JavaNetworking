@@ -305,4 +305,13 @@ Returns a hashcode for the given IP address.
  
  Socket s = new Socket(); → Creating an instance of Socket
  ```
+ 
+ <li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/Socket%5BConnecting%20Address%20Through%20a%20Port%5D.java">Connecting InetAddress Through a Port-Constructor1</h3></li>
+ 
+ ```Syntax
+ 
+ import java.net.Socket → Socket Package
+ 
+ Socket s = new Socket(InetAddress, int port); 
+ ```
 </ul>
