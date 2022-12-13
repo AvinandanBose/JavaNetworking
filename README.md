@@ -326,12 +326,27 @@ Returns a hashcode for the given IP address.
  s.connect( new java.net.InetSocketAddress(hostname, port));
  ```
  
+  <li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/Socket%5BConnecting%20Address%20Through%20a%20Port%5D-Constructor4.java">Connecting InetAddress Through a Port-Constructor1(b)</h3></li>
+ 
+ ```Syntax
+ 
+import java.net.InetSocketAddress;
+import java.net.Socket;
+import java.net.SocketAddress;
+
+ 
+ Socket s = new Socket();
+ s.connect( new java.net.InetSocketAddress(hostname, port));
+ ```
+ 
   <li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/Socket%5BConnecting%20Address%20Through%20a%20Port%5D-Constructor2.java">Connecting InetAddress Through a Port-Constructor2</h3></li>
  
  ```Syntax
  
- import java.net.Socket → Socket Package
- 
- Socket s = new Socket(InetAddress, int port, InetAddress localAddress, int localPort); 
+import java.net.Socket → Socket Package
+
+Socket s = new Socket();
+SocketAddress addr = new InetSocketAddress(hostname, port);
+s.connect(addr);
  ```
 </ul>
