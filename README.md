@@ -288,6 +288,10 @@ Returns a hashcode for the given IP address.
 <li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/Answer1.java">Answer-1</h3></li>
 </ul>
 
+<h3> Q 2)Printing address of  Host of Local Device(local host ) and Host of an website.  </h3>
 
+<ul>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/Answer2.java">Answer-2</h3></li>
+</ul>
 
-
+<h1 align="center"> Socket Class </h1>
