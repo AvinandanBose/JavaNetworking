@@ -295,3 +295,7 @@ Returns a hashcode for the given IP address.
 </ul>
 
 <h1 align="center"> Socket Class </h1>
+
+<ul>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/Socket%5BCreation%20of%20Socket%5D.java">Creation of Socket</h3></li>
+</ul>
