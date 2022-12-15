@@ -512,7 +512,49 @@ Socket s1 = new Socket(socksProxy);
 </tr>
 </table>
 
+<h2> Other types of Inet And Socket connections: </h2>
 
- </ul>
+ <li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/Socket%5BConnecting%20Address%20Through%20a%20Port%5D-Constructor3.java">Connecting InetAddress Through a Port-Other Types-1</h3></li>
+ 
+ ```Syntax
+ 
+ import java.net.Socket → Socket Package
+ import java.net.InetAddress;
+  
+  InetAddress address = InetAddress.getByName(host); 
+ Socket s = new Socket(); 
+ s.connect( new java.net.InetSocketAddress(address.getHostAddress(), int port));
+  
+  Or
+  
+  s.connect( new java.net.InetSocketAddress(address.getHostName(), int port));
+ ```
+ 
+  <li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/Socket%5BConnecting%20Address%20Through%20a%20Port%5D-Constructor4.java">Connecting InetAddress Through a Port-Other Types-2</h3></li>
+   
+  
+ 
+ ```Syntax
+ 
+import java.net.InetSocketAddress;
+import java.net.Socket;
+import java.net.SocketAddress;
+import java.net.InetAddress;
+ 
+ static Socket socket = new Socket();
+ InetAddress address = InetAddress.getByName(host);
+SocketAddress addr = new InetSocketAddress(address.getHostAddress(), int port);
+   
+Or
+   
+SocketAddress addr = new InetSocketAddress(address.getHostName(), int port);
+   
+And then:
+   
+ socket.connect(addr);
+ 
+```
+<h3> <i> <ins>Note </ins> </i>: Same thing can be attained by String .</h3>
+</ul>
  <h2 align="center"> 2. Methods of Socket Class </h2>
 </ul>
