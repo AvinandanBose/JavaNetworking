@@ -358,6 +358,24 @@ Or
 s = new Socket(address.getHostName(), int port, localAdress, localPort);   
    
  ```
+ 
+  <li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/SocketNew2.java">Connecting InetAddress Through a Port-Constructor3</h3></li>
+ 
+ ```Syntax
+ 
+import java.net.Socket → Socket Package
+import java.net.InetAddress;
+
+static Socket s;
+InetAddress address = InetAddress.getByName(host);
+InetAddress localAdress = InetAddress.getLocalHost();
+s = new Socket(address.getHostAddress(), int port, boolean);
+   
+Or
+   
+s = new Socket(address.getHostName(), int port, localAdress, boolean);   
+   
+ ```
  <h2>Using Proxy in Constructor </h2> 
    
  <li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/Socket%5BConnecting%20Address%20Through%20a%20Port%5D-Constructor5.java">Connecting InetAddress Through a Proxy and Input String Address -Constructor3</h3></li>
