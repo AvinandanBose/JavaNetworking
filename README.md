@@ -395,7 +395,7 @@ socket = new Socket(address, 80);
    
  ```
  
- <li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/SocketNew4.java">Connecting String Address Through a Port-Constructor4</h3></li>
+ <li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/SocketNew4.java">Connecting String Address Through a Port-Constructor5</h3></li>
  
 ```Syntax
  
@@ -412,7 +412,7 @@ socket = new Socket(address, int port, localAdress, int localPort);
    
  ```
  
- <li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/SocketNew5.java">Connecting String Address Through a Port-Constructor5</h3></li>
+ <li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/SocketNew5.java">Connecting String Address Through a Port-Constructor6</h3></li>
  
 ```Syntax
  
