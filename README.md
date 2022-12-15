@@ -371,6 +371,50 @@ Proxy socksProxy = new Proxy(Proxy.Type.SOCKS, new InetSocketAddress(hostname, p
 Socket s1 = new Socket(socksProxy);
 
  ```
+ 
+ 
+<table>
+ <tr>
+ <th >Constructor</th>
+ <th >Does this</th>
+</tr> 
+<tr>
+  <td  >Socket()</td>
+  <td  >It creates an unconnected socket with the system-default of SocketImpl</td>
+</tr>
+<tr>
+  <td  >Socket(InetAddress address, int port)</td>
+  <td  >It is creates a stream socket and connects it to the specified port number at the specified IP address. </td>
+  
+</tr>
+<tr>
+  <td  >Socket(InetAddress address, int port, boolean stream)</td>
+  <td  >It is depreciated and it uses DatagramSocket instead of UDP transport. </td>
+</tr>
+<tr>
+  <td  >Socket(InetAddress address, int port, InetAddress localAddr, int localport) </td>
+  <td  >It creates a socket and connects it to the specified remote address of specified remote port. </td>
+</tr>
+<tr>
+  <td  >Socket(Proxy proxy) </td>
+  <td  >It creates an unconnected socket, specifying the type of proxy that should be used regardless of any other settings. </td>
+</tr>
+<tr>
+  <td  >Socket(String address, int port)</td>
+  <td  >It is creates a stream socket and connects it to the specified port number on the named host. </td>
+  
+</tr>
+<tr>
+  <td  >Socket(String address, int port, boolean stream)</td>
+  <td  >It is depreciated and it uses DatagramSocket instead of UDP transport. </td>
+</tr>
+<tr>
+  <td  >Socket(InetAddress address, int port, InetAddress localAddr, int localport) </td>
+  <td  >It creates a socket and connects it to the specified remote host of specified remote port. </td>
+</tr>
+</table>
+
+
  </ul>
  <h2 align="center"> 2. Methods of Socket Class </h2>
 </ul>
