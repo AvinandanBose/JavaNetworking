@@ -371,11 +371,11 @@ Proxy socksProxy = new Proxy(Proxy.Type.SOCKS, new InetSocketAddress(hostname, p
 Socket s1 = new Socket(socksProxy);
 
  ```
- 
+ <h2 align="Center"> In Details </h2>
  
 <table>
  <tr>
- <th >Constructor</th>
+ <th >Constructors</th>
  <th >Does this</th>
 </tr> 
 <tr>
