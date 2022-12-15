@@ -360,7 +360,7 @@ s = new Socket(address.getHostName(), int port, localAdress, localPort);
  ```
  <h2>Using Proxy in Constructor </h2> 
    
- <li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/Socket%5BConnecting%20Address%20Through%20a%20Port%5D-Constructor5.java">Connecting InetAddress Through a Port-Constructor3</h3></li>
+ <li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/Socket%5BConnecting%20Address%20Through%20a%20Port%5D-Constructor5.java">Connecting InetAddress Through a Proxy and Input String Address -Constructor3</h3></li>
   
   
  
