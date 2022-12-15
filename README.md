@@ -432,7 +432,7 @@ socket = new Socket(address, int port, boolean);
  
  <h2>Using Proxy in Constructor </h2> 
    
- <li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/Socket%5BConnecting%20Address%20Through%20a%20Port%5D-Constructor5.java">Connecting InetAddress Through a Proxy and Input String Address -Constructor3</h3></li>
+ <li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/Socket%5BConnecting%20Address%20Through%20a%20Port%5D-Constructor5.java">Connecting Socket Through a Proxy and Input String Address -Constructor7</h3></li>
   
   
  
@@ -442,14 +442,33 @@ import java.net.Proxy;
 import java.net.Socket;
 import java.net.SocketAddress;
 
-SocketAddress address = new InetSocketAddress(hostname, port);
+SocketAddress address = new InetSocketAddress(hostname, int port);
 Proxy proxy = new Proxy(Proxy.Type.HTTP, address);
 Socket s = new Socket(proxy);
 
-Proxy socksProxy = new Proxy(Proxy.Type.SOCKS, new InetSocketAddress(hostname, port));
+Proxy socksProxy = new Proxy(Proxy.Type.SOCKS, new InetSocketAddress(hostname, int port));
 Socket s1 = new Socket(socksProxy);
 
  ```
+ 
+  <li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/SocketNew6.java">Connecting Socket Through a Proxy and Input Inet Address -Constructor8</h3></li>
+  
+ ```Syntax
+import java.net.InetSocketAddress;
+import java.net.Proxy;
+import java.net.Socket;
+import java.net.SocketAddress;
+import java.net.InetAddress;
+
+InetAddress address = InetAddress.getByName(hostname);
+SocketAddress address = new InetSocketAddress(address, int port);
+Proxy proxy = new Proxy(Proxy.Type.HTTP, address);
+Socket s = new Socket(proxy);
+
+Proxy socksProxy = new Proxy(Proxy.Type.SOCKS, new InetSocketAddress(hostname,  intport));
+Socket s1 = new Socket(socksProxy);
+
+ ```  
  <h2 align="Center"> In Details </h2>
  
 <table>
