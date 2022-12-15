@@ -1,15 +1,33 @@
 import java.net.InetSocketAddress;
-import java.net.Socket;
 import java.net.SocketAddress;
+import java.io.IOException;
+import java.net.Socket;
+import java.net.UnknownHostException;
+import java.net.InetAddress;
 
-class Socket5 {
-    static Socket s = new Socket();
+public class SocketNew {
+    static Socket socket = new Socket();
+    public static void main(String[] args)  {
 
-    public static void main(String[] args) throws Exception {
-        SocketAddress addr = new InetSocketAddress("www.google.com", 80);
+        try {
+            InetAddress address = InetAddress.getByName("www.google.com");
+            System.out.println(address.getHostAddress());
+            System.out.println(address.getHostName());
+            SocketAddress addr = new InetSocketAddress(address.getHostName(), 80);
+            System.out.println(addr);
+            socket.connect(addr);
+            System.out.println(socket.getInetAddress());
+            System.out.println(socket.getPort());
+           
+           
+        }catch(UnknownHostException e){
+            System.out.println("Unknown Host");
+        } catch (IOException e) {
+            
+            e.printStackTrace();
+        }
 
-        s.connect(addr);
 
-        System.out.println("Connected");
     }
+    
 }
