@@ -376,6 +376,60 @@ Or
 s = new Socket(address.getHostName(), int port, localAdress, boolean);   
    
  ```
+ 
+ <h2>Using String in Constructor </h2> 
+ 
+ <li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/SocketNew3.java">Connecting String Address Through a Port-Constructor4</h3></li>
+ 
+```Syntax
+ 
+import java.net.Socket → Socket Package
+
+
+static Socket s;
+
+String address = hostname;
+socket = new Socket(address, 80);
+
+// socket = new Socket(hostname, int port);
+   
+ ```
+ 
+ <li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/SocketNew4.java">Connecting String Address Through a Port-Constructor4</h3></li>
+ 
+```Syntax
+ 
+import java.net.Socket → Socket Package
+import java.net.InetAddress;
+
+static Socket s;
+
+ String address = hostname;
+ InetAddress localAdress = InetAddress.getLocalHost();
+socket = new Socket(address, int port, localAdress, int localPort); 
+
+// socket = new Socket( hostname, int port,localAdress, int localPort);
+   
+ ```
+ 
+ <li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/SocketNew5.java">Connecting String Address Through a Port-Constructor5</h3></li>
+ 
+```Syntax
+ 
+import java.net.Socket → Socket Package
+
+
+static Socket s;
+
+ String address = hostname;
+ 
+socket = new Socket(address, int port, boolean); 
+
+// socket = new Socket( hostname, int port, boolean);
+   
+ ```
+ 
+ 
  <h2>Using Proxy in Constructor </h2> 
    
  <li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/Socket%5BConnecting%20Address%20Through%20a%20Port%5D-Constructor5.java">Connecting InetAddress Through a Proxy and Input String Address -Constructor3</h3></li>
