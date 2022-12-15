@@ -300,14 +300,26 @@ Returns a hashcode for the given IP address.
 
 <h2 align="center"> 1. Constructors of Socket Class </h2>
 
+
 <ul>
-<li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/Socket%5BCreation%20of%20Socket%5D.java">Creation of Socket</h3></li>
+<h2> Socket() constructor {Creating UnConnected Socket}</h2>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/Socket%5BCreation%20of%20Socket%5D.java">Creation of Unconnected Socket-1</h3></li>
  
  ```Syntax
  
  import java.net.Socket → Socket Package
  
  Socket s = new Socket(); → Creating an instance of Socket
+ ```
+ 
+ <li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/SocketNew.java">Creation of Unconnected Socket -2</h3></li>
+ 
+ 
+ ```Syntax
+ 
+ import java.net.Socket → Socket Package
+
+new Socket(); → Anonymously Creating an instance of Socket
  ```
  
  <h2>Using Inet in Constructor </h2> 
