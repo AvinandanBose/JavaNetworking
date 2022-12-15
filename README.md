@@ -310,38 +310,24 @@ Returns a hashcode for the given IP address.
  Socket s = new Socket(); → Creating an instance of Socket
  ```
  
+ <h2>Using Inet in Constructor </h2> 
+ 
  <li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/Socket%5BConnecting%20Address%20Through%20a%20Port%5D-Constructor1.java">Connecting InetAddress Through a Port-Constructor1</h3></li>
  
  ```Syntax
  
  import java.net.Socket → Socket Package
+ import java.net.InetAddress;
  
- Socket s = new Socket(InetAddress, int port); 
+ InetAddress address = InetAddress.getByName(host);
+ Socket s = new Socket(address.getHostAddress(), int port); 
+  
+  Or
+  
+  Socket s = new Socket(address.getHostName(), int port);  
  ```
  
   
- <li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/Socket%5BConnecting%20Address%20Through%20a%20Port%5D-Constructor3.java">Connecting InetAddress Through a Port-Constructor1(a)</h3></li>
- 
- ```Syntax
- 
- import java.net.Socket → Socket Package
- 
- Socket s = new Socket(); 
- s.connect( new java.net.InetSocketAddress(hostname, port));
- ```
- 
-  <li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/Socket%5BConnecting%20Address%20Through%20a%20Port%5D-Constructor4.java">Connecting InetAddress Through a Port-Constructor1(b)</h3></li>
- 
- ```Syntax
- 
-import java.net.InetSocketAddress;
-import java.net.Socket;
-import java.net.SocketAddress;
-
- 
- Socket s = new Socket();
- s.connect( new java.net.InetSocketAddress(hostname, port));
- ```
  
   <li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/Socket%5BConnecting%20Address%20Through%20a%20Port%5D-Constructor2.java">Connecting InetAddress Through a Port-Constructor2</h3></li>
  
@@ -350,12 +336,21 @@ import java.net.SocketAddress;
 import java.net.Socket → Socket Package
 import java.net.InetAddress;
 
-Socket s;
+static Socket s;
+InetAddress address = InetAddress.getByName(host);
 InetAddress localAdress = InetAddress.getLocalHost();
-s = new Socket(hostname, port, localAdress, localPort);
+s = new Socket(address.getHostAddress(), int port, localAdress, localPort);
+   
+Or
+   
+s = new Socket(address.getHostName(), int port, localAdress, localPort);   
+   
  ```
- 
+ <h2>Using Proxy in Constructor </h2> 
+   
  <li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/Socket%5BConnecting%20Address%20Through%20a%20Port%5D-Constructor5.java">Connecting InetAddress Through a Port-Constructor3</h3></li>
+  
+  
  
   ```Syntax
 import java.net.InetSocketAddress;
