@@ -625,6 +625,14 @@ It returns the address to which the socket is connected.
 
 ```
 
+<li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/socketmethods7.java">InputStream getInputStream</h3></li>
+
+```Syntax
+
+It returns an input stream for this socket.
+
+```
+
  
 </ul>
 </ul>
