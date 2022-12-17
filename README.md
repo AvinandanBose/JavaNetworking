@@ -565,5 +565,14 @@ And then:
   It binds socket to a local address and port number.
   
 ```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/socketmethods2.java">Void Close()</h3></li>
+
+```Syntax
+
+  It closes the socket.
+  
+```
+ 
 </ul>
 </ul>
