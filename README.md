@@ -574,11 +574,20 @@ And then:
   
 ```
 
-<li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/socketmethods2.java">Void Connect(Socket endpoint)</h3></li>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/socketmethods3.java">Void Connect(Socket endpoint)</h3></li>
 
 ```Syntax
 
   It connects this socket to the server.
+  
+```
+
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/socketmethods4.java">Void Connect(Socket endpoint, int timeout)</h3></li>
+
+```Syntax
+
+  It connects this socket to the server  with a specified timeout value.
   
 ```
  
