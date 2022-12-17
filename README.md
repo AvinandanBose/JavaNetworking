@@ -557,4 +557,13 @@ And then:
 <h3> <i> <ins>Note </ins> </i>: Same thing can be attained by String .</h3>
 </ul>
  <h2 align="center"> 2. Methods of Socket Class </h2>
+<ul>
+  <li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/SocketMethods1.java">Void Bind(SocketAddress bindpoint)</h3></li>
+  
+```Syntax
+
+  It binds socket to a local address and port number.
+  
+```
+</ul>
 </ul>
