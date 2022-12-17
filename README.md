@@ -573,6 +573,14 @@ And then:
   It closes the socket.
   
 ```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/socketmethods2.java">Void Connect(Socket endpoint)</h3></li>
+
+```Syntax
+
+  It connects this socket to the server.
+  
+```
  
 </ul>
 </ul>
