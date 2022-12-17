@@ -592,7 +592,7 @@ And then:
 ```
 
 
-<li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/socketmethods5.java">getChannel</h3></li>
+<li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/socketmethods5.java">SocketChannel getChannel</h3></li>
 
 ```Syntax
 
@@ -617,7 +617,13 @@ SocketChannel which is a Class.
 
 ```
 
+<li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/socketmethods6.java">InetAddress getInetAddress</h3></li>
 
+```Syntax
+
+It returns the address to which the socket is connected.
+
+```
 
  
 </ul>
