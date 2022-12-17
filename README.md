@@ -600,8 +600,9 @@ It returns the unique SocketChannel object associated with the socket if any.
 
 :Note:
 
-The Java NIO SocketChannel is used for connecting a channel with a TCP (Transmission Control Protocol) 
-network socket. It is equivalent to Java Networking Sockets used in network programming.
+The Java NIO SocketChannel is used for connecting a channel with a TCP 
+(Transmission Control Protocol) network socket. 
+It is equivalent to Java Networking Sockets used in network programming.
 
 It is provided by: java.nio package .
 
