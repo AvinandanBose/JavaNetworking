@@ -590,6 +590,34 @@ And then:
   It connects this socket to the server  with a specified timeout value.
   
 ```
+
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/socketmethods5.java">getChannel</h3></li>
+
+```Syntax
+
+It returns the unique SocketChannel object associated with the socket if any.
+
+:Note:
+
+The Java NIO SocketChannel is used for connecting a channel with a TCP (Transmission Control Protocol) 
+network socket. It is equivalent to Java Networking Sockets used in network programming.
+
+It is provided by: java.nio package .
+
+NIO represents New Input/Output , where as,
+IO represents Input/Output of java.io package. 
+
+Java.NIO package have Channels provided by
+
+java.nio.channels inetface and one of the Channels is:
+
+SocketChannel which is a Class.
+
+```
+
+
+
  
 </ul>
 </ul>
