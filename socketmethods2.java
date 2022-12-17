@@ -13,7 +13,7 @@ public class socketmethods2 {
         int port = 80;
         SocketAddress socketAddress = new InetSocketAddress(inetAddress, port);
         System.out.println("Socket Address: " + socketAddress);
-        s.connect(socketAddress); // It binds socket to a local address and port number.     
+        s.connect(socketAddress); 
         System.out.println("Inet address: " + s.getInetAddress());
         System.out.println("Port number: " + s.getLocalPort());
         System.out.println("Socket Is Bounded: " + s.isBound());
