@@ -610,7 +610,7 @@ IO represents Input/Output of java.io package.
 
 Java.NIO package have Channels provided by
 
-java.nio.channels inetface and one of the Channels is:
+java.nio.channels interface and one of the Channels is:
 
 SocketChannel which is a Class.
 
