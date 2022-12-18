@@ -690,5 +690,14 @@ or disables the SO_OOBInline. By default, the SO_OOBInline option is disabled.
 It returns the remote port to which the socket is connected to.
 
 ```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/socketmethods15.java">int getRecieveBufferSize()</h3></li>
+
+```Syntax
+
+It gets the value of the SO_RCVBUF option for this socket, that is,
+the buffer size used by the platform for the input on this Socket.
+
+```
 </ul>
 </ul>
