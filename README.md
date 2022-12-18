@@ -683,6 +683,12 @@ The setOOBInline() method of Java Socket class enables
 or disables the SO_OOBInline. By default, the SO_OOBInline option is disabled.
 
 ```
- 
+<li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/socketmethods14.java">int getPort()</h3></li>
+
+```Syntax
+
+It returns the remote port to which the socket is connected to.
+
+```
 </ul>
 </ul>
