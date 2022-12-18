@@ -666,6 +666,14 @@ It returns the address of the endpoint to which the socket is bound,
 or null if it is not bound yet.
 
 ```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/socketmethods12.java">OutputStream getOutputStream</h3></li>
+
+```Syntax
+
+It returns the outputstream for the connected socket.
+
+```
  
 </ul>
 </ul>
