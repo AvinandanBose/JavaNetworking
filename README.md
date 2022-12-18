@@ -674,6 +674,15 @@ or null if it is not bound yet.
 It returns the outputstream for the connected socket.
 
 ```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/socketmethods13.java">boolean getOOBInline</h3></li>
+
+```Syntax
+
+The setOOBInline() method of Java Socket class enables 
+or disables the SO_OOBInline. By default, the SO_OOBInline option is disabled.
+
+```
  
 </ul>
 </ul>
