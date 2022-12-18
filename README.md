@@ -657,6 +657,15 @@ It gets the local address to which the socket is bound.
 It returns the local port to which the current socket is bound .
 
 ```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/socketmethods11.java">SocketAddress getLocalSocketAddress</h3></li>
+
+```Syntax
+
+It returns the address of the endpoint to which the socket is bound,
+or null if it is not bound yet.
+
+```
  
 </ul>
 </ul>
