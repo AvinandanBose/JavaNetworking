@@ -633,6 +633,17 @@ It returns an input stream for this socket.
 
 ```
 
+<li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/socketmethods8.java">SetKeepAlive and GetKeepAlive</h3></li>
+
+```Syntax
+
+SetKeepAlive: If Set to True, then SO_KEEPALIVE is enabled
+
+GetKeepALive: If SetKeepAlive is true , then GetKeepAlive returns True else false.
+
+```
+
+
  
 </ul>
 </ul>
