@@ -650,7 +650,13 @@ GetKeepALive: If SetKeepAlive is true , then GetKeepAlive returns True else fals
 It gets the local address to which the socket is bound.
 
 ```
+<li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/socketmethods10.java">int getLocalPort()</h3></li>
 
+```Syntax
+
+It returns the local port to which the current socket is bound .
+
+```
  
 </ul>
 </ul>
