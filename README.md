@@ -643,6 +643,13 @@ GetKeepALive: If SetKeepAlive is true , then GetKeepAlive returns True else fals
 
 ```
 
+<li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/socketmethods9.java">InetAddress getLocalAddress</h3></li>
+
+```Syntax
+
+It gets the local address to which the socket is bound.
+
+```
 
  
 </ul>
