@@ -730,5 +730,17 @@ Get value of the SO_SNDBUF option for this Socket,
 that is the buffer size used by the platform for output on this Socket.
 
 ```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/socketmethods19.java">int getSoLinger()</h3></li>
+
+
+```Syntax
+
+Returns setting for SO_LINGER. -1 returns implies that the option is disabled. 
+The setting only affects socket close.
+
+```
+
+
 </ul>
 </ul>
