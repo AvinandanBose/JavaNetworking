@@ -720,5 +720,15 @@ after the socket is closed.
 Tests if SO_REUSEADDR is enabled.
 
 ```
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/socketmethods18.java">int getSendBufferSize</h3></li>
+
+
+```Syntax
+
+Get value of the SO_SNDBUF option for this Socket, 
+that is the buffer size used by the platform for output on this Socket.
+
+```
 </ul>
 </ul>
