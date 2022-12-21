@@ -14,7 +14,7 @@ public class socketmethods17 {
             try {
                 s = new Socket("www.google.com", 80);
                 System.out.println("Is Connected: " + s.isConnected());
-                System.out.println("Recieved Buffer Size: " + s.getReceiveBufferSize());
+                System.out.println("Reuse Address:" + s.getReuseAddress());
                 s.close();
     
                 // Type2

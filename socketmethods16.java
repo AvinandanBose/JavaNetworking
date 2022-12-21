@@ -14,7 +14,7 @@ public class socketmethods16 {
         try {
             s = new Socket("www.google.com", 80);
             System.out.println("Is Connected: " + s.isConnected());
-            System.out.println("Recieved Buffer Size: " + s.getRemoteSocketAddress());
+            System.out.println("Remote Socket Address: " + s.getRemoteSocketAddress());
             s.close();
 
             // Type2
