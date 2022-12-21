@@ -699,5 +699,19 @@ It gets the value of the SO_RCVBUF option for this socket, that is,
 the buffer size used by the platform for the input on this Socket.
 
 ```
+<li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/socketmethods16.java">SocketAddress getRemoteSocketAddress()</h3></li>
+
+
+```Syntax
+
+Returns the address of the endpoint this socket is connected to, 
+or null if it is unconnected.
+
+If the socket was connected prior to being closed, 
+then this method will continue to return the connected address,
+after the socket is closed.
+
+```
+
 </ul>
 </ul>
