@@ -712,6 +712,13 @@ then this method will continue to return the connected address,
 after the socket is closed.
 
 ```
+<li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/socketmethods17.java">boolean getReuseAddress()</h3></li>
 
+
+```Syntax
+
+Tests if SO_REUSEADDR is enabled.
+
+```
 </ul>
 </ul>
