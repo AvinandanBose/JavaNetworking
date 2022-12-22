@@ -741,6 +741,15 @@ The setting only affects socket close.
 
 ```
 
+<li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/socketmethods20.java">int getSoTimeout()</h3></li>
+
+
+```Syntax
+
+Returns setting for SO_TIMEOUT. 0 returns implies that the option is disabled (i.e., timeout of infinity).
+
+```
+
 
 </ul>
 </ul>
