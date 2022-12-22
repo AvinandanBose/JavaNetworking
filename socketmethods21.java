@@ -25,6 +25,7 @@ public class socketmethods21 {
                 SocketAddress socketAddress = new InetSocketAddress(localHostName, port);
                 s1 = new Socket();
                 s1.connect(socketAddress);
+                s1.setTcpNoDelay(true);
                 System.out.println("TCP NoDelay: " + s1.getTcpNoDelay());
     
                 s1.close();
