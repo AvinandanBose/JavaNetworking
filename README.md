@@ -746,10 +746,17 @@ The setting only affects socket close.
 
 ```Syntax
 
-Returns setting for SO_TIMEOUT. 0 returns implies that the option is disabled (i.e., timeout of infinity).
+Returns setting for SO_TIMEOUT. 0 returns implies that the option is disabled 
+(i.e., timeout of infinity).
 
 ```
+<li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/socketmethods21.java">boolean getTcpNoDelay()</h3></li>
 
+```Syntax
+
+Tests if TCP_NODELAY is enabled.
+
+```
 
 </ul>
 </ul>
