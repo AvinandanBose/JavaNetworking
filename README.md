@@ -784,5 +784,18 @@ Returns true if the socket has been closed.
 
 ```
 
+<li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/socketmethods25.java">boolean isConnected()</h3></li>
+
+```Syntax
+
+Returns the connection state of the socket.
+
+Note:Closing a socket doesn't clear its connection state, 
+which means this method will return true for a closed socket (see isClosed()) 
+if it was successfuly connected prior to being closed.
+
+```
+
+
 </ul>
 </ul>
