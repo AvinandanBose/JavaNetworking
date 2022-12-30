@@ -790,7 +790,7 @@ Returns true if the socket has been closed.
 
 Returns the connection state of the socket.
 
-Note:Closing a socket doesn't clear its connection state, 
+Note:  Closing a socket doesn't clear its connection state, 
 which means this method will return true for a closed socket (see isClosed()) 
 if it was successfuly connected prior to being closed.
 
