@@ -766,5 +766,13 @@ Gets traffic class or type-of-service in the IP header for packets sent from thi
 
 ```
 
+<li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/socketmethods23.java">boolean isBound()</h3></li>
+
+```Syntax
+
+Returns the binding state of the socket.
+
+```
+
 </ul>
 </ul>
