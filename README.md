@@ -771,7 +771,7 @@ Gets traffic class or type-of-service in the IP header for packets sent from thi
 ```Syntax
 
 Returns the binding state of the socket.
-
+Returns true if the socket was successfuly bound to an address
 ```
 
 
