@@ -758,5 +758,13 @@ Tests if TCP_NODELAY is enabled.
 
 ```
 
+<li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/socketmethods22.java">int getTrafficClass()</h3></li>
+
+```Syntax
+
+Gets traffic class or type-of-service in the IP header for packets sent from this Socket
+
+```
+
 </ul>
 </ul>
