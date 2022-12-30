@@ -774,5 +774,15 @@ Returns the binding state of the socket.
 
 ```
 
+
+<li><h3> <a href="https://github.com/AvinandanBose/JavaNetworking/blob/main/socketmethods24.java">boolean isClosed()</h3></li>
+
+```Syntax
+
+Returns the closed state of the socket.
+Returns true if the socket has been closed.
+
+```
+
 </ul>
 </ul>
